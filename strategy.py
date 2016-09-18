@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # http://stackoverflow.com/questions/963965/how-is-this-strategy-pattern
 # -written-in-python-the-sample-in-wikipedia
 """
@@ -12,6 +13,7 @@ import types
 
 
 class StrategyExample:
+
     def __init__(self, func=None):
         self.name = 'Strategy Example 0'
         if func is not None:
